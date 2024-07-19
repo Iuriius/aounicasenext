@@ -62,7 +62,7 @@ export default function OurTeam() {
                     </h5>
                 </div>
             </div>
-            <hr className={styles.hr} />
+            <hr />
             <div className={styles.buttonWrapper}>
                 <Link href="/" className={styles.button}>
                     Повернутися на головну сторінку

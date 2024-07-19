@@ -1,19 +1,37 @@
 import Link from 'next/link'
 import styles from "./page.module.css"
 import Image from "next/image"
+/*
+/**|======================================
+/**| pics
+/**|======================================
+*/
+import instagram from "@/public/instagram.svg"
+import telegram from "@/public/telegram.svg"
+import viber from "@/public/viber.svg"
+import tiktok from "@/public/tiktok.svg"
 import call from "@/public/call.svg";
 import mail from "@/public/mail.svg";
-import schedule from "@/public/schedule.svg";
+import clock from "@/public/clock.svg";
 import thumbUp from "@/public/thumbUp.svg";
-import locationCity from "@/public/locationCity.svg";
-
+import building from "@/public/building.svg";
+import contacts from "@/public/contacts.svg";
+/*
+/**|======================================
+/**| code
+/**|======================================
+*/
 export default function Contacts() {
     return (
         <>
+            <Image className={styles.maticon} src={contacts} alt="contacts" />
             <h2>НАШІ КОНТАКТИ</h2>
+            <br />
             <div className={styles.phoneandmail}>
                 <div>
+                    <br />
                     <h2>ТЕЛЕФОНУЙТЕ</h2>
+                    <br />
                     <div className={styles.flexContactlink}>
                         <a className={styles.a} href="tel:%2B380935378674"><Image className={styles.maticon} src={call} alt="call" />+38 (093) 537 86 74</a>
                     </div>
@@ -25,50 +43,54 @@ export default function Contacts() {
                     </div>
                 </div>
                 <div>
+                    <br />
                     <h2>АБО НАПИШІТЬ НАМ</h2>
+                    <br />
                     <div className={styles.flexContactlink}>
                         <a className={styles.a} href="mailto:aounicase@gmail.com"><Image className={styles.maticon} src={mail} alt="mail" />на електронну пошту</a>
                     </div>
                 </div>
             </div>
-
+            <br />
+            <Image className={styles.maticon} src={clock} alt="clock" />
+            <br />
             <h2>ЧАС РОБОТИ ОФІСУ</h2>
-            <Image className={styles.maticon} src={schedule} alt="schedule" />
+            <br />
             <p>Пн-Пт: 10:00–18:00</p>
             <p>Вихідні та святкові дні:</p>
             <p>За домовленістю</p>
-
+            <br />
             <Image className={styles.maticon} src={thumbUp} alt="thumbUp" />
             <h2>МИ В СОЦМЕРЕЖАХ</h2>
+            <br />
             <div className={styles.quickaccess}>
                 <div>
-                    <a className={styles.a} href="https://www.instagram.com/aounicase/" target="_blank">
-                        <Image className={styles.icon} src="instagram.svg" alt="instagram" width={48} height={48} />
+                    <a href="https://www.instagram.com/aounicase/" target="_blank">
+                        <Image className={styles.icon} src={instagram} alt="instagram" />
                     </a>
                 </div>
                 <div>
-                    <a className={styles.a} href="https://t.me/%2B380935378674" target="_blank">
-                        <Image className={styles.icon} src="telegram.svg" alt="telegram" width={48} height={48} />
+                    <a href="https://t.me/+380935378674" target="_blank">
+                        <Image className={styles.icon} src={telegram} alt="telegram" />
                     </a>
                 </div>
-                <div className="vibermob">
-                    <a className={styles.a} href="viber://add?number=%2B380935378674" target="_blank">
-                        <Image className={styles.icon} src="viber.svg" alt="viber" width={48} height={48} />
+                <div className={styles.vibermob}>
+                    <a href="viber://add?number=+380935378674" target="_blank">
+                        <Image className={styles.icon} src={viber} alt="viber" />
                     </a>
                 </div>
-                <div className="viberdesk">
-                    <a className={styles.a} href="viber://chat?number=%2B380935378674" target="_blank">
-                        <Image className={styles.icon} src="viber.svg" alt="viber" width={48} height={48} />
+                <div className={styles.viberdesk}>
+                    <a href="viber://chat?number=+380935378674" target="_blank">
+                        <Image className={styles.icon} src={viber} alt="viber" />
                     </a>
                 </div>
                 <div>
-                    <a className={styles.a} href="https://www.tiktok.com/@unicase_" target="_blank">
-                        <Image className={styles.icon} src="tiktok.svg" alt="tiktok" width={48} height={48} />
+                    <a href="https://www.tiktok.com/@unicase_" target="_blank">
+                        <Image className={styles.icon} src={tiktok} alt="tiktok" />
                     </a>
                 </div>
             </div>
-
-            <Image className={styles.maticon} src={locationCity} alt="locationCity" />
+            <Image className={styles.maticon} src={building} alt="building" />
             <h2>ЯК НАС ЗНАЙТИ?</h2>
             <div className={styles.flexcontacts}>
                 <a className={styles.a} href="https://maps.app.goo.gl/Ws6oGK58aTAd3RXn6" target="_blank"><mat-icon fontIcon="location_on" />м. Київ,

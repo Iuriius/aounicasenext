@@ -11,9 +11,9 @@ body {
   overflow-x: hidden;
   font-family: "Raleway", "Fira Sans", sans-serif;
   background-color: #f2f1e6;
-  background-image: url(../public/dots.webp);
+  background-image: url(/dots.webp);
   background-blend-mode: color-burn;
-  background-size: cover;
+  background-size: contain;
 }
 
 a {
@@ -26,6 +26,7 @@ a {
   padding: 0;
   margin: 0 auto;
   text-align: center;
+  background-color: #f2f1e6;
 
   @media screen and (min-width: 320px) {
     width: 320px;

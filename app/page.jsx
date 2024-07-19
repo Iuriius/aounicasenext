@@ -108,7 +108,7 @@ export default function Home() {
         <br />
         <div className={styles.quickaccess}>
           <div>
-            <a href="tel:%2B380935378674" target="_blank">
+            <a href="tel:+380935378674" target="_blank">
               <Image className={styles.icon} src={phone} alt="phone" />
             </a>
           </div>
@@ -118,17 +118,17 @@ export default function Home() {
             </a>
           </div>
           <div>
-            <a href="https://t.me/%2B380935378674" target="_blank">
+            <a href="https://t.me/+380935378674" target="_blank">
               <Image className={styles.icon} src={telegram} alt="telegram" />
             </a>
           </div>
           <div className={styles.vibermob}>
-            <a href="viber://add?number=%2B380935378674" target="_blank">
+            <a href="viber://add?number=+380935378674" target="_blank">
               <Image className={styles.icon} src={viber} alt="viber" />
             </a>
           </div>
           <div className={styles.viberdesk}>
-            <a href="viber://chat?number=%2B380935378674" target="_blank">
+            <a href="viber://chat?number=+380935378674" target="_blank">
               <Image className={styles.icon} src={viber} alt="viber" />
             </a>
           </div>
@@ -215,7 +215,7 @@ export default function Home() {
             <h2>АБО НАПИШІТЬ НАМ</h2>
             <br />
             <div className={styles.flex}>
-              <a className={styles.a} href="mailto:aounicase@gmail.com"><Image className={styles.image} src={mail} alt="mail" />aounicase@gmail.com</a>
+              <a className={styles.a} href="mailto:aounicase@gmail.com"><Image className={styles.image} src={mail} alt="mail" />на електронну пошту</a>
             </div>
           </div >
         </div >

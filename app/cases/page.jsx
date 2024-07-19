@@ -82,12 +82,11 @@ export default function Cases() {
                         державної
                         влади, стягнення коштів з державного бюджету</p>
                 </div>
-                <hr />
-                <div className={styles.buttonWrapper}>
-                    <Link href="/" className={styles.button}>
-                        Повернутися на головну сторінку
-                    </Link>
-                </div>
+            </div>
+            <div className={styles.buttonWrapper}>
+                <Link href="/" className={styles.button}>
+                    Повернутися на головну сторінку
+                </Link>
             </div>
         </>
     )
