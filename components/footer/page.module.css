@@ -1,6 +1,7 @@
 .contentwrapper {
     background-color: #000000;
     width: 100%;
+    text-align: center;
 
 }
 
@@ -17,11 +18,22 @@
 .confidentiallink {
     color: #FFD600;
     margin: 0;
+
+    &:hover,
+    &:focus-visible {
+        font-weight: bold;
+    }
 }
 
 .footertel {
     color: white;
     margin: 0;
+    font-family: "Fira Sans";
+
+    &:hover,
+    &:focus-visible {
+        color: #FFD600;
+    }
 }
 
 .p {

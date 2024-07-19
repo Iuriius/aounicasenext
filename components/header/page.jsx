@@ -16,8 +16,10 @@ import logo from '@/public/logo.webp'
 export default function Header() {
     return (
         <header className={styles.header}>
+            <br />
             <Image className={styles.mainlogo} src={logo} alt="logo" />
             <Nav />
+            <br />
         </header>
     )
 }

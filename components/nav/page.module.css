@@ -15,10 +15,9 @@
 
 .link {
     text-decoration: none;
-}
 
-.active {
-    text-decoration: none;
-    color: #FFD600;
-    font-weight: bold;
+    &:hover,
+    &:focus-visible {
+        font-weight: bold;
+    }
 }
