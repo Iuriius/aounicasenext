@@ -7,14 +7,14 @@ import Image from "next/image";
 /**| pics
 /**|======================================
 */
-import call from "@/public/call.svg"
-import gavel from "@/public/gavel.svg";
-import military from "@/public/military.svg";
-import handshake from "@/public/handshake.svg";
-import fact from "@/public/fact.svg";
-import diversity from "@/public/diversity.svg";
-import reg from "@/public/reg.svg";
-import balance from "@/public/balance.svg";
+import military_tech from "@/public/military_tech.svg"
+import how_to_reg from "@/public/how_to_reg.svg"
+import handshake from "@/public/handshake.svg"
+import gavel from "@/public/gavel.svg"
+import fact_check from "@/public/fact_check.svg"
+import diversity_1 from "@/public/diversity_1.svg"
+import checklist from "@/public/checklist.svg"
+import balance from "@/public/balance.svg"
 /*
 /**|======================================
 /**| code
@@ -24,48 +24,70 @@ export default function Cases() {
     return (
         <>
             <br />
-            <Image src={call} />
+            <Image className={styles.image} src={checklist} alt="checklist" />
             <h2>ЯК ВІДБУВАЄТЬСЯ НАША РОБОТА?</h2>
             <Accordion />
-
+            <br />
             <h2>ОТРИМАЙТЕ ЮРИДИЧНУ ДОПОМОГУ</h2>
+            <br />
             <div className={styles.cardscontainer}>
-                <div className={styles.card}><Image src={military} />
+                <div className={styles.card}>
+                    <Image className={styles.image} src={military_tech} alt="military_tech" />
+                    <br />
                     <h3>ВІЙСЬКОВЕ ПРАВО</h3>
+                    <br />
                     <p>оформлення відстрочок, підготовка військових процесуальних документів, вирішення спорів, захист в суді</p>
                 </div>
-                <div className={styles.card}><Image src={handshake} />
+                <div className={styles.card}>
+                    <Image className={styles.image} src={handshake} alt="handshake" />
+                    <br />
                     <h3>ЦИВІЛЬНЕ ПРАВО<br />ТА ПРОЦЕС</h3>
+                    <br />
                     <p>вирішення спорів, укладення договорів тощо</p>
                 </div>
-                <div className={styles.card}><Image src={fact} />
+                <div className={styles.card}>
+                    <Image className={styles.image} src={fact_check} alt="fact_check" />
+                    <br />
                     <h3>ГОСПОДАРСЬКЕ ПРАВО<br />ТА ПРОЦЕС</h3>
+                    <br />
                     <p>супровід господарської діяльності, вирішення спорів, процесуальна документація</p>
                 </div>
-                <div className={styles.card}><Image src={diversity} />
+                <div className={styles.card}>
+                    <Image className={styles.image} src={diversity_1} alt="diversity_1" />
+                    <br />
                     <h3>СІМЕЙНЕ ПРАВО</h3>
+                    <br />
                     <p>процес розлучення, призначення аліментів, укладення договорів, шлюбного контракту</p>
                 </div>
-                <div className={styles.card}><Image src={gavel} />
+                <div className={styles.card}>
+                    <Image className={styles.image} src={gavel} alt="gavel" />
+                    <br />
                     <h3>КРИМІНАЛЬНЕ ПРАВО<br />ТА ПРОЦЕС</h3>
+                    <br />
                     <p>супровід на слідчих розшукових діях, захист у суді, формування лінії захисту</p>
                 </div>
-                <div className={styles.card}><Image src={reg} />
+                <div className={styles.card}>
+                    <Image className={styles.image} src={how_to_reg} alt="how_to_reg" />
+                    <br />
                     <h3>ВИБОРЧЕ ПРАВО</h3>
+                    <br />
                     <p>супровід виборчої компанії, формування стратегії</p>
                 </div>
-                <div className={styles.card}><Image src={balance} />
+                <div className={styles.card}>
+                    <Image className={styles.image} src={balance} alt="balance" />
+                    <br />
                     <h3>АДМІНІСТРАТИВНЕ ПРАВО<br />ТА ПРОЦЕС</h3>
+                    <br />
                     <p>захист осіб, які притягаються до адміністративної відповідальності, вирішення спорів з органами публічної,
                         державної
                         влади, стягнення коштів з державного бюджету</p>
                 </div>
-            </div>
-            <hr />
-            <div className={styles.buttonWrapper}>
-                <Link href="/" className={styles.button}>
-                    Повернутися на головну сторінку
-                </Link>
+                <hr />
+                <div className={styles.buttonWrapper}>
+                    <Link href="/" className={styles.button}>
+                        Повернутися на головну сторінку
+                    </Link>
+                </div>
             </div>
         </>
     )
