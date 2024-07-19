@@ -13,7 +13,7 @@ import tiktok from "@/public/tiktok.svg"
 import call from "@/public/call.svg";
 import mail from "@/public/mail.svg";
 import clock from "@/public/clock.svg";
-import thumbUp from "@/public/thumbUp.svg";
+import thumbup from "@/public/thumbup.svg";
 import building from "@/public/building.svg";
 import contacts from "@/public/contacts.svg";
 /*
@@ -60,7 +60,7 @@ export default function Contacts() {
             <p>Вихідні та святкові дні:</p>
             <p>За домовленістю</p>
             <br />
-            <Image className={styles.maticon} src={thumbUp} alt="thumbUp" />
+            <Image className={styles.maticon} src={thumbup} alt="thumbup" />
             <h2>МИ В СОЦМЕРЕЖАХ</h2>
             <br />
             <div className={styles.quickaccess}>
