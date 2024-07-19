@@ -82,13 +82,13 @@ export default function Home() {
           </div>
         </div>
         <br />
-        {/* < div className = { styles.yt } >
-        <iframe className={styles.ytvideo" src="https://www.youtube.com/embed/HMBDl25Jf8k?si=zduCOFAE26wy-LMo"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen> </iframe>
-      </div>
-      <br /> */}
+        <div className={styles.yt} >
+          <iframe className={styles.ytvideo} src="https://www.youtube.com/embed/HMBDl25Jf8k?si=zduCOFAE26wy-LMo"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen> </iframe>
+        </div>
+        <br />
         <div className={styles.note}>
           <p><b>Вартість усної консультації з адвокатом по телефону</b></p>
           <br />

@@ -210,10 +210,19 @@
 
 .yt {
     background-color: aliceblue;
-    padding-top: 1rem;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .ytvideo {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        height: 432px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+        height: 675px;
+    }
 }
