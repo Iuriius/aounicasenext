@@ -74,12 +74,7 @@ export default function Contacts() {
                         <Image className={styles.icon} src={telegram} alt="telegram" />
                     </a>
                 </div>
-                <div className={styles.vibermob}>
-                    <a href="viber://add?number=+380935378674" target="_blank">
-                        <Image className={styles.icon} src={viber} alt="viber" />
-                    </a>
-                </div>
-                <div className={styles.viberdesk}>
+                <div>
                     <a href="viber://chat?number=+380935378674" target="_blank">
                         <Image className={styles.icon} src={viber} alt="viber" />
                     </a>

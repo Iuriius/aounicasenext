@@ -164,22 +164,6 @@
     align-items: center;
 }
 
-.vibermob {
-    display: block;
-
-    @media screen and (min-width: 1200px) {
-        display: none;
-    }
-}
-
-.viberdesk {
-    display: none;
-
-    @media screen and (min-width: 1200px) {
-        display: block;
-    }
-}
-
 .yellow {
     background-color: #FFD600;
     padding: 1rem 0 1rem 0;
