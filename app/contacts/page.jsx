@@ -75,7 +75,7 @@ export default function Contacts() {
                     </a>
                 </div>
                 <div>
-                    <a href="viber://chat?number=%2B380935378674" target="_blank">
+                    <a href="viber://add?number=%2B380935378674" target="_blank">
                         <Image className={styles.icon} src={viber} alt="viber" />
                     </a>
                 </div>
