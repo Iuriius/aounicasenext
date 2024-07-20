@@ -4,7 +4,8 @@
 }
 
 .swiperContainer {
-    height: 444px;
+    height: auto;
+    width: auto;
 }
 
 .swiperSlide {
@@ -28,10 +29,10 @@
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #FFD600 !important;
+    background-color: #FFD600;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-    color: #FFD600 !important;
+    color: #FFD600;
 }
