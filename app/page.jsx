@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import Image from "next/image";
-import Link from 'next/link';
+import Link from "next/link";
+import Swiper from "../components/swiper/page"
 /*
 /**|======================================
 /**| pics
@@ -84,9 +85,9 @@ export default function Home() {
         <br />
         <div className={styles.yt} >
           <iframe className={styles.ytvideo} src="https://www.youtube.com/embed/HMBDl25Jf8k?si=zduCOFAE26wy-LMo"
-            title="YouTube video player" frameborder="0"
+            title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen> </iframe>
+            referrerPolicy="strict-origin-when-cross-origin" loading="lazy" allowFullScreen> </iframe>
         </div>
         <br />
         <div className={styles.note}>
@@ -102,7 +103,7 @@ export default function Home() {
           <a className={styles.a} href="tel:%2B380935378674">+38 (093) 537 86 74</a>
         </div>
         <br />
-        {/* <app-heroswiper /> */}
+        <Swiper />
         <br />
         <h2>ЗВ'ЯЗАТИСЯ:</h2>
         <br />

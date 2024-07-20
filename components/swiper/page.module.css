@@ -1,0 +1,37 @@
+.swiperBox {
+    background-color: #F2F1E6;
+    margin-bottom: 1rem;
+}
+
+.swiperContainer {
+    height: 444px;
+}
+
+.swiperSlide {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 180px;
+    width: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .swiperSlide {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .swiperSlide {
+        height: 400px;
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FFD600 !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #FFD600 !important;
+}
