@@ -15,11 +15,11 @@ export const metadata = {
   },
 };
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="uk">
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16593300850"></script>
         <script dangerouslySetInnerHTML={{
