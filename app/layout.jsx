@@ -57,30 +57,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-/*
-/**|======================================
-/**| old code
-/**|======================================
-*/
-// import "./globals.css";
-// import Header from "@/components/header/page";
-// import Footer from "@/components/footer/page";
-
-// export const metadata = {
-//   title: "Юнікейс - Адвокатське Об'єднання - Головна",
-//   description: "Отримайте юридичну допомогу",
-// };
-
-// export default function RootLayout({ children }) {
-//   return (
-//     <html lang="uk">
-//       <body>
-//         <Header />
-//         <div className="container">
-//           {children}
-//         </div>
-//         <Footer />
-//       </body>
-//     </html >
-//   );
-// }
