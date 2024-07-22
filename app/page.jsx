@@ -2,6 +2,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import Swiper from "../components/swiper/page"
+import { YouTubeEmbed } from '@next/third-parties/google'
 /*
 /**|======================================
 /**| pics
@@ -96,11 +97,12 @@ export default function Home() {
           <a className={styles.a} href="tel:%2B380935378674">+38 (093) 537 86 74</a>
         </div>
         <br />
-        <div className={styles.yt} >
-          <iframe className={styles.ytvideo} src="https://www.youtube.com/embed/cV2sK9QiUZU?si=WKG6qBH3XY9mVn58"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin" loading="lazy" allowFullScreen> </iframe>
+        <div className={styles.ytcontainer}>
+          <YouTubeEmbed className={styles.ytvideo}
+            videoid="d4ilDGHgxJg"
+            params="accelerometer=1&autoplay=1&clipboard-write=1&encrypted-media=1&gyroscope=1&picture-in-picture=1&web-share=1"
+            style={{ referrerPolicy: 'strict-origin-when-cross-origin' }}
+          />
         </div>
         <br />
         <div className={styles.note2}>
