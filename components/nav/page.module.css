@@ -15,9 +15,9 @@
 
 .link {
     text-decoration: none;
+}
 
-    &:hover,
-    &:focus-visible {
-        font-weight: bold;
-    }
+.link:hover,
+.link:focus-visible {
+    font-weight: bold;
 }

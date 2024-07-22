@@ -1,18 +1,25 @@
 .article {
     padding: 0;
     text-align: left;
+}
 
-    @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+    .article {
         padding: 0 1rem;
     }
 }
 
 .a {
+    font-family: "Fira Sans";
+    text-decoration: none;
+    color: #6C665A;
+    display: flex;
+    align-items: center;
+}
 
-    &:hover,
-    &:focus-visible {
-        color: #FFD600;
-    }
+.a:hover,
+.a:focus-visible {
+    color: #FFD600;
 }
 
 .h2 {
@@ -29,11 +36,11 @@
     margin-bottom: 2rem;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     cursor: pointer;
+}
 
-    &:hover,
-    &:focus-visible {
-        background-color: #fff111;
-    }
+.button:hover,
+.button:focus-visible {
+    background-color: #fff111;
 }
 
 .buttonWrapper {

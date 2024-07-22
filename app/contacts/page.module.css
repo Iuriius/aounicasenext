@@ -4,24 +4,28 @@
     color: #6C665A;
     display: flex;
     align-items: center;
+}
 
-    &:hover,
-    &:focus {
-        cursor: pointer;
-        color: #FFD600;
-    }
+.a:hover,
+.a:focus {
+    cursor: pointer;
+    color: #FFD600;
 }
 
 .iframe {
     width: 300px;
     margin-bottom: 1rem;
+}
 
-    @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+    .iframe {
         width: 700px;
         height: 400px;
     }
+}
 
-    @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
+    .iframe {
         width: 1180px;
         height: 500px;
     }
@@ -38,11 +42,11 @@
     width: 48px;
     height: auto;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
 
-    &:hover,
-    &:focus {
-        transform: scale(1.1);
-    }
+.icon:hover,
+.icon:focus {
+    transform: scale(1.1);
 }
 
 .flexcontacts {
@@ -108,11 +112,11 @@
     margin-bottom: 2rem;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     cursor: pointer;
+}
 
-    &:hover,
-    &:focus-visible {
-        background-color: #fff111;
-    }
+.button:hover,
+.button:focus-visible {
+    background-color: #fff111;
 }
 
 .buttonWrapper {

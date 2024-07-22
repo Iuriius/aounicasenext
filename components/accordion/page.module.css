@@ -3,8 +3,10 @@
     text-align: left;
     margin-top: 1rem;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
 
-    @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+    .wrapper {
         width: 770px;
     }
 }
@@ -32,7 +34,7 @@
     cursor: pointer;
 }
 
-.blue label {
+.blue .tab label {
     background: #787872;
 }
 
