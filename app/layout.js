@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
       <body>
         <noscript>
           <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KD5RQWHG"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe>
         </noscript>
         <Header />
         <div className="container">
