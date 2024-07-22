@@ -98,9 +98,7 @@ export default function Contacts() {
             <Image className={styles.maticon} src={building} alt="building" />
             <h2>ЯК НАС ЗНАЙТИ?</h2>
             <div className={styles.flexcontacts}>
-                <a className={styles.a} href="https://maps.app.goo.gl/Ws6oGK58aTAd3RXn6" target="_blank" rel="noopener noreferrer">
-                    <span className="material-icons">location_on</span> м. Київ, проспект Берестейський, 93
-                </a>
+                <a className={styles.a} href="https://maps.app.goo.gl/Ws6oGK58aTAd3RXn6" target="_blank" rel="noopener noreferrer">м. Київ, проспект Берестейський, 93</a>
             </div>
             <br />
             <iframe className={styles.iframe}
