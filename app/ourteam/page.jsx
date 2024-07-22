@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Olga from "@/public/Olga_Musienko.webp"
 import Olexii from "@/public/Olexii_Strashnyi.webp"
 import Alina from "@/public/Alina_Svyrydenko.webp"
+import Natalia from "@/public/Natalia_Borsuk.webp"
 
 export default function OurTeam() {
     return (
@@ -17,7 +18,7 @@ export default function OurTeam() {
             <div className={styles.photoAndDescr}>
                 <Image src={Olga} alt="Olga_Musienko" className={styles.photo} />
                 <div className={styles.description}>
-                    <h3 className={styles.h3}>Мусієнко<br />Ольга Вікторівна</h3>
+                    <h3 className={styles.h3}>Мусієнко<br />Ольга</h3>
                     <h4 className={styles.h4}>Старший партнер<br />Адвокат</h4>
                     <br />
                     <h5 className={styles.h5}>
@@ -32,7 +33,7 @@ export default function OurTeam() {
             <div className={styles.photoAndDescrRev}>
                 <Image src={Olexii} alt="Olexii_Strashnyi" className={styles.photo} />
                 <div className={styles.description}>
-                    <h3 className={styles.h3}>Страшний<br />Олексій Олександрович</h3>
+                    <h3 className={styles.h3}>Страшний<br />Олексій</h3>
                     <h4 className={styles.h4}>Керуючий партнер<br />Адвокат</h4>
                     <br />
                     <h5 className={styles.h5}>
@@ -50,7 +51,7 @@ export default function OurTeam() {
             <div className={styles.photoAndDescr}>
                 <Image src={Alina} alt="Alina_Svyrydenko" className={styles.photo} />
                 <div className={styles.description}>
-                    <h3 className={styles.h3}>Свириденко<br />Аліна Олександрівна</h3>
+                    <h3 className={styles.h3}>Свириденко<br />Аліна</h3>
                     <h4 className={styles.h4}>Помічник адвоката</h4>
                     <br />
                     <h5 className={styles.h5}>
@@ -59,6 +60,18 @@ export default function OurTeam() {
                         публікації статей у профільних виданнях на актуальну тематику. Регулярно
                         підвищує свій рівень знань зокрема на базі V Школи адвокатури та адвокації від Ліги студентів АПУ та
                         Кримінально-правового форуму «Золотий Дюк» від Асоціації адвокатів України.
+                    </h5>
+                </div>
+            </div>
+            <hr className={styles.hr} />
+            <div className={styles.photoAndDescrRev}>
+                <Image src={Natalia} alt="Natalia_Borsuk" className={styles.photo} />
+                <div className={styles.description}>
+                    <h3 className={styles.h3}>Наталія<br />Борсук</h3>
+                    <h4 className={styles.h4}>Помічник Адвоката</h4>
+                    <br />
+                    <h5 className={styles.h5}>
+                        Закінчила Інститут міжнародних відносин Київського національного університету імені Тараса Шевченка та отримала професійну кваліфікацію фахівець з міжнародного права та фахівець з перекладу французької мови.
                     </h5>
                 </div>
             </div>

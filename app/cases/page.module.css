@@ -1,3 +1,15 @@
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fira Sans";
+}
+
+.a:hover,
+.a:focus-visible {
+    color: #FFD600;
+}
+
 .button {
     font-family: "Fira Sans";
     text-align: center;
@@ -39,5 +51,17 @@
     padding: 1rem;
     background-image: url(../../public/crossword.png);
     width: 250px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.note2 {
+    background-color: aliceblue;
+    background-image: url(../../public/pixelbg.webp);
+    background-size: cover;
+    background-position: center;
+    border: 0.5rem solid #FFD600;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }

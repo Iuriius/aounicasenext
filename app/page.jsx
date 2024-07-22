@@ -83,15 +83,8 @@ export default function Home() {
           </div>
         </div>
         <br />
-        <div className={styles.yt} >
-          <iframe className={styles.ytvideo} src="https://www.youtube.com/embed/cV2sK9QiUZU?si=WKG6qBH3XY9mVn58"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin" loading="lazy" allowFullScreen> </iframe>
-        </div>
-        <br />
         <div className={styles.note}>
-          <p><b>Вартість усної консультації з адвокатом по телефону</b></p>
+          <p><b>Вартість усної консультації з адвокатом по телефону:</b></p>
           <br />
           <p>(без укладання договору та вивчення документів)</p>
           <br />
@@ -101,6 +94,24 @@ export default function Home() {
           <p>☎️ номер постійного звʼязку:</p>
           <br />
           <a className={styles.a} href="tel:%2B380935378674">+38 (093) 537 86 74</a>
+        </div>
+        <br />
+        <div className={styles.yt} >
+          <iframe className={styles.ytvideo} src="https://www.youtube.com/embed/cV2sK9QiUZU?si=WKG6qBH3XY9mVn58"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin" loading="lazy" allowFullScreen> </iframe>
+        </div>
+        <br />
+        <div className={styles.note2}>
+          <p><b>Оскарження штрафів ТЦК:</b></p>
+          <br />
+          <p>ознайомлення з матеріалами справи</p>
+          <b>💰 4000 грн.</b>
+          <br />
+          <br />
+          <p>формування позиції та написання клопотання</p>
+          <b>💰 4000 грн.</b>
         </div>
         <br />
         <Swiper />
