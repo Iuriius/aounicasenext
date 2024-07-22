@@ -5,7 +5,6 @@
     @media screen and (min-width: 768px) {
         padding: 0 1rem;
     }
-
 }
 
 .a {
@@ -37,7 +36,7 @@
     }
 }
 
-.buttonwrapper {
+.buttonWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
