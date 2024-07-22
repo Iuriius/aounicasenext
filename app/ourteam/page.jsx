@@ -1,6 +1,6 @@
+import styles from "./page.module.css";
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from "./page.module.css";
 import Olga from "@/public/Olga_Musienko.webp"
 import Olexii from "@/public/Olexii_Strashnyi.webp"
 import Alina from "@/public/Alina_Svyrydenko.webp"
