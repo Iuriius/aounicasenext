@@ -255,11 +255,7 @@ export default function Home() {
         <br />
         <iframe
           className={styles.iframe}
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1940224695873!2d30.378006088744385!3d50.456111598348635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cd7fded78d39%3A0x225e02813505374e!2z0K7QvdGW0LrQtdC50YE!5e0!3m2!1sen!2sua!4v1716126277381!5m2!1sen!2sua"
-          style={{ border: '0.5rem solid #FFD600' }}
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1940224695873!2d30.378006088744385!3d50.456111598348635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cd7fded78d39%3A0x225e02813505374e!2z0K7QvdGW0LrQtdC50YE!5e0!3m2!1sen!2sua!4v1716126277381!5m2!1sen!2sua" referrerPolicy="no-referrer-when-downgrade"></iframe>
         <br />
         <br />
         <div className={styles.buttonWrapper}>
