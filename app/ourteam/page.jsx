@@ -18,7 +18,7 @@ export default function OurTeam() {
             <div className={styles.photoAndDescr}>
                 <Image src={Olga} alt="Olga_Musienko" className={styles.photo} />
                 <div className={styles.description}>
-                    <h3 className={styles.h3}>Мусієнко<br />Ольга</h3>
+                    <h3 className={styles.h3}>Ольга<br />Мусієнко</h3>
                     <h4 className={styles.h4}>Старший партнер<br />Адвокат</h4>
                     <br />
                     <h5 className={styles.h5}>
@@ -33,7 +33,7 @@ export default function OurTeam() {
             <div className={styles.photoAndDescrRev}>
                 <Image src={Olexii} alt="Olexii_Strashnyi" className={styles.photo} />
                 <div className={styles.description}>
-                    <h3 className={styles.h3}>Страшний<br />Олексій</h3>
+                    <h3 className={styles.h3}>Олексій<br />Страшний</h3>
                     <h4 className={styles.h4}>Керуючий партнер<br />Адвокат</h4>
                     <br />
                     <h5 className={styles.h5}>
@@ -51,7 +51,7 @@ export default function OurTeam() {
             <div className={styles.photoAndDescr}>
                 <Image src={Alina} alt="Alina_Svyrydenko" className={styles.photo} />
                 <div className={styles.description}>
-                    <h3 className={styles.h3}>Свириденко<br />Аліна</h3>
+                    <h3 className={styles.h3}>Аліна<br />Свириденко</h3>
                     <h4 className={styles.h4}>Помічник адвоката</h4>
                     <br />
                     <h5 className={styles.h5}>
