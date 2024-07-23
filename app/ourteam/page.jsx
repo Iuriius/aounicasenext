@@ -68,7 +68,7 @@ export default function OurTeam() {
                 <Image src={Natalia} alt="Natalia_Borsuk" className={styles.photo} />
                 <div className={styles.description}>
                     <h3 className={styles.h3}>Наталія<br />Борсук</h3>
-                    <h4 className={styles.h4}>Помічник Адвоката</h4>
+                    <h4 className={styles.h4}>Помічник адвоката</h4>
                     <br />
                     <h5 className={styles.h5}>
                         Закінчила Інститут міжнародних відносин Київського національного університету імені Тараса Шевченка та отримала професійну кваліфікацію фахівець з міжнародного права та фахівець з перекладу французької мови.
