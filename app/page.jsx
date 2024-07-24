@@ -99,7 +99,7 @@ export default function Home() {
         <br />
         <div className={styles.ytcontainer}>
           <YouTubeEmbed className={styles.ytvideo}
-            videoid="d4ilDGHgxJg"
+            videoid="Hvk9rdjbzas"
             params="accelerometer=1&autoplay=1&clipboard-write=1&encrypted-media=1&gyroscope=1&picture-in-picture=1&web-share=1"
             style={{ referrerPolicy: 'strict-origin-when-cross-origin' }}
           />
