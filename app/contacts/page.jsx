@@ -35,17 +35,22 @@ export default function Contacts() {
                     <h2>ТЕЛЕФОНУЙТЕ</h2>
                     <br />
                     <div className={styles.flexContactlink}>
-                        <a className={styles.a} href="tel:%2B380935378674">
+                        <a className={styles.a} href="tel:+380935378674">
                             <Image className={styles.maticon} src={call} alt="call" />+38 (093) 537 86 74
                         </a>
                     </div>
                     <div className={styles.flexContactlink}>
-                        <a className={styles.a} href="tel:%2B380679981718">
+                        <a className={styles.a} href="tel:+380730774072">
+                            <Image className={styles.maticon} src={call} alt="call" />+38 (073) 077 40 72
+                        </a>
+                    </div>
+                    <div className={styles.flexContactlink}>
+                        <a className={styles.a} href="tel:+380679981718">
                             <Image className={styles.maticon} src={call} alt="call" />+38 (067) 998 17 18
                         </a>
                     </div>
                     <div className={styles.flexContactlink}>
-                        <a className={styles.a} href="tel:%2B380673239927">
+                        <a className={styles.a} href="tel:+380673239927">
                             <Image className={styles.maticon} src={call} alt="call" />+38 (067) 323 99 27
                         </a>
                     </div>

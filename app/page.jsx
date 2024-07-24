@@ -213,6 +213,9 @@ export default function Home() {
               <a className={styles.a} href="tel:+380935378674"><Image className={styles.image} src={call} alt="call" />+38 (093) 537 86 74</a>
             </div>
             <div className={styles.flex}>
+              <a className={styles.a} href="tel:+380730774072"><Image className={styles.image} src={call} alt="call" />+38 (073) 077 40 72</a>
+            </div>
+            <div className={styles.flex}>
               <a className={styles.a} href="tel:+380679981718"><Image className={styles.image} src={call} alt="call" />+38 (067) 998 17 18</a>
             </div>
             <div className={styles.flex} >
