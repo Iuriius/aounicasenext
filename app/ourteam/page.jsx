@@ -67,7 +67,7 @@ export default function OurTeam() {
             <div className={styles.photoAndDescrRev}>
                 <Image src={Natalia} alt="Natalia_Borsuk" className={styles.photo} />
                 <div className={styles.description}>
-                    <h3 className={styles.h3}>Наталія<br />Борсук</h3>
+                    <h3 className={styles.h3}>Наталя<br />Борсук</h3>
                     <h4 className={styles.h4}>Помічник адвоката</h4>
                     <br />
                     <h5 className={styles.h5}>
