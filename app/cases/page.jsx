@@ -106,6 +106,8 @@ export default function Cases() {
                         влади, стягнення коштів з державного бюджету</p>
                 </div>
             </div>
+            <br />
+            <hr />
             <div className={styles.buttonWrapper}>
                 <Link href="/" className={styles.button}>
                     Повернутися на головну сторінку

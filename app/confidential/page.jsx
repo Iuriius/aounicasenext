@@ -9,10 +9,8 @@ export default function Confidential() {
                 <h2 className={styles.h2}>Політика конфіденційності</h2>
                 <br />
                 <p>
-                    На сайті АО "Юнікейс", доступному за адресою <a className={styles.a} href="https://aounicase.com.ua/"><b>https://aounicase.com.ua</b></a>,
-                    одним з головних пріоритетів є
-                    конфіденційність наших користувачів. Цей документ містить типи інформації, яку збирає і реєструє майданчик
-                    aounicase.com.ua, а також способи її використання.
+                    На сайті АО "Юнікейс", доступному за адресою <a className={styles.a} href="https://aounicase.com.ua/"><b>https://aounicase.com.ua</b></a>одним з головних пріоритетів є
+                    конфіденційність наших користувачів. Цей документ містить типи інформації, яку збирає і реєструє майданчик aounicase.com.ua, а також способи її використання.
                     <br />
                     <br />
                     Повідомте нам, якщо у Вас є додаткові питання або Вам потрібна додаткова інформація про нашу Політику
@@ -108,18 +106,17 @@ export default function Confidential() {
                     від
                     часу змінюватися. Зміни, що вносяться до політики конфіденційності, публікуються на цій сторінці.
                     З питань щодо політики конфіденційності (в т.ч. видалення персональних даних), Користувач може зв'язатися з нами
-                    використовуючи <a className={styles.a} href="mailto:aounicase@gmail.com"><b>це e-mail посилання</b></a>.
+                    використовуючи <a className={styles.a} href="mailto:aounicase@gmail.com"><b>це e-mail посилання.</b></a>
                 </p>
             </article>
             <br />
+            <hr />
             <br />
             <div className={styles.buttonWrapper}>
                 <Link href="/" className={styles.button}>
                     Повернутися назад
                 </Link>
             </div>
-            <br />
-            <br />
         </>
     )
 }
