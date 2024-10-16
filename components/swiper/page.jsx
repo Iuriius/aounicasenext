@@ -18,9 +18,11 @@ export default function SwiperComponent() {
                 pagination={{ clickable: true }}
                 speed={500}
             >
+                <SwiperSlide className={styles.swiperSlide} style={{ backgroundImage: 'url(/reestrazia.webp)' }}></SwiperSlide>
+                <SwiperSlide className={styles.swiperSlide} style={{ backgroundImage: 'url(/business.webp)' }}></SwiperSlide>
                 <SwiperSlide className={styles.swiperSlide} style={{ backgroundImage: 'url(/vidstrochka.webp)' }}></SwiperSlide>
-                <SwiperSlide className={styles.swiperSlide} style={{ backgroundImage: 'url(/alimenty.webp)' }}></SwiperSlide>
                 <SwiperSlide className={styles.swiperSlide} style={{ backgroundImage: 'url(/vlk.webp)' }}></SwiperSlide>
+                <SwiperSlide className={styles.swiperSlide} style={{ backgroundImage: 'url(/alimenty.webp)' }}></SwiperSlide>
                 <SwiperSlide className={styles.swiperSlide} style={{ backgroundImage: 'url(/podatkova.webp)' }}></SwiperSlide>
                 <SwiperSlide className={styles.swiperSlide} style={{ backgroundImage: 'url(/gospodarski.webp)' }}></SwiperSlide>
             </Swiper>
