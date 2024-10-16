@@ -154,7 +154,7 @@ export default function Home() {
             </a>
           </div>
           <div>
-            <a href="https://www.tiktok.com/@unicase_" target="_blank">
+            <a href="https://www.tiktok.com/@aounicase" target="_blank">
               <Image className={styles.icon} src={tiktok} alt="tiktok" />
             </a>
           </div>

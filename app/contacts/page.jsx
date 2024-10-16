@@ -95,7 +95,7 @@ export default function Contacts() {
                     </a>
                 </div>
                 <div>
-                    <a href="https://www.tiktok.com/@unicase_" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.tiktok.com/@aounicase" target="_blank" rel="noopener noreferrer">
                         <Image className={styles.icon} src={tiktok} alt="tiktok" />
                     </a>
                 </div>
