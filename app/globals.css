@@ -11,7 +11,7 @@ body {
   overflow-x: hidden;
   font-family: "Raleway", "Fira Sans", sans-serif;
   background-color: #f2f1e6;
-  background-image: url(/dots.webp);
+  background-image: url("/dots.webp");
   background-blend-mode: color-burn;
   background-size: contain;
 }

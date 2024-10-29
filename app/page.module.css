@@ -76,7 +76,7 @@
     align-items: center;
     text-align: center;
     padding: 1rem;
-    background-image: url(../public/crossword.png);
+    background-image: url("../public/crossword.png");
     width: 250px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
@@ -148,7 +148,7 @@
     border: 0.5rem solid #FFD600;
     padding-bottom: 1rem;
     flex-wrap: wrap;
-    background-image: url(../public/hammer.webp);
+    background-image: url("../public/hammer.webp");
     background-size: cover;
     background-position: center;
 }
@@ -195,7 +195,7 @@
 
 .note {
     background-color: aliceblue;
-    background-image: url(../public/oldphone.webp);
+    background-image: url("../public/oldphone.webp");
     background-size: cover;
     background-position: center;
     border: 0.5rem solid #FFD600;
@@ -207,7 +207,7 @@
 
 .note2 {
     background-color: aliceblue;
-    background-image: url(../public/pixelbg.webp);
+    background-image: url("../public/pixelbg.webp");
     background-size: cover;
     background-position: center;
     border: 0.5rem solid #FFD600;
@@ -227,7 +227,7 @@
 
 .banner {
     background-color: aliceblue;
-    background-image: url(../public/registration.webp);
+    background-image: url("../public/registration.webp");
     background-size: cover;
     background-position: center;
     border: 0.5rem solid #FFD600;

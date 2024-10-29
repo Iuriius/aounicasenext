@@ -78,7 +78,7 @@
     border: 0.5rem solid #FFD600;
     padding-bottom: 1rem;
     flex-wrap: wrap;
-    background-image: url(../../public/hammer.webp);
+    background-image: url("../../public/hammer.webp");
     background-size: cover;
     background-position: center;
 }
