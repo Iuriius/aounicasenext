@@ -19,12 +19,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="uk">
-      <GoogleTagManager gtmId="GTM-KD5RQWHG" />
       <GoogleTagManager gtmId="AW-16593300850" />
       <GoogleTagManager gtmId="GT-WRHLHQR9" />
       <body>
         <noscript>
-          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KD5RQWHG"
+          <iframe src="https://www.googletagmanager.com/ns.html?id=GT-WRHLHQR9"
             height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe>
         </noscript>
         <Header />
